@@ -1,1 +1,5 @@
 # SA_E-commerce_compare
+Data yang digunakan dalam model ini adalah hasil scrapping dari google playstore sebanyak 1000 data tiap aplikasi. Aplikasi yang diuji adalah Tokopedia, Shope, Lazada, Blibli, dan Bukalapak. Data yang digunakan adalah data komentar serta rating penilaian. Pengolahan data ini dilakukukan metode NLP dengan _cleansing_ terlebih dahulu seperti _case folding, stopword removal, tokenizing, dan stemming_. Setelah di _cleansing_ teks diproses menjadi vektor menggunakan TfidfVectorizer dan di klasifikasi menggunakan MultinomialNB yang secara khusus dirancang untuk mengolah data teks.
+
+Eng ver- 
+The data used in this model is the result of scrapping from Google Playstore of 1000 data for each application. The applications tested were Tokopedia, Shope, Lazada, Blibli, and Bukalapak. The data used is comment data and assessment ratings. This data processing is carried out by the NLP method with _cleansing_ first such as _case folding, stopword, tokenizing, and stemming_. After _cleansing_ the text is processed into a vector using TfidfVectorizer and classified using MultinomialNB which is specifically designed for processing text data.
